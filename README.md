@@ -18,6 +18,11 @@ For more information on ModelArts:
 
 https://docs.prod-cloud-ocb.orange-business.com/en-us/modelarts/index.html
 
+
+## Introduction of ModelArts 
+ModelArts is a one-stop development platform for AI developers. With data preprocessing, semi-automated data labeling, distributed training, automated model building, and model deployment on the device, edge, and cloud, ModelArts helps AI developers build models quickly and manage the lifecycle of AI development. The pay-per-use billing mode is available.
+
+
 ## Introduction of ModelArts Cases
 
 ### ExeML Cases

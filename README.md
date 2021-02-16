@@ -18,7 +18,7 @@ For more information on ModelArts:
 
 https://docs.prod-cloud-ocb.orange-business.com/en-us/modelarts/index.html
 
-## Introduction of Cases
+## Introduction of ModelArts Cases
 
 ### ExeML Cases
 

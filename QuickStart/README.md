@@ -7,7 +7,7 @@ When using the Training Jobs, Model Management, and Notebooks functions of Model
 ### 1.1.1 Obtaining an Access Key
 
 1. On the ModelArts management console, hover over the username in the upper right corner and choose My Credentials from the drop-down list.
-![](Images/credentials.JPG)
+<p align="center">![](Images/credentials.JPG)</p>
 3. On the My Credentials page, choose Access Keys > Create Access Key.
 ![](Images/Picture2.png)
 5. In the Create Access Key dialog box that is displayed, enter the verification code received by SMS or email.

@@ -37,7 +37,7 @@ ModelArts integrates Jupyter Notebook(an open source tools) which provide an int
 
 The ModelArts Notebook development environment is ideally suited as a tool for teaching and learning artificial intelligence. There are many well-known educational institutions that offer artificial intelligence courses based on ModelArts.
 
-### Train_inference Cases
+### Train & Inference Cases
 
 End-to-end data development, model development, model training, model deployment and release, model sharing (AI market) and other full-process artificial intelligence model development, and application practices In ModelArts.
 

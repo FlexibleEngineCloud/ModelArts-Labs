@@ -51,6 +51,7 @@ The obtained dataset has two directories: eval and train. The data stored in tra
 **NOTE**
 
 The Yunbao dataset has two directories: eval and train. Select the data in the train directory for training. If the upper-layer directory of train is selected, an error message is displayed, indicating that OBS has invalid data. As a result, the project will fail to create.
+
 ---
 
 
@@ -64,6 +65,9 @@ Data source synchronization is automatically performed when you create an ExeML 
 On the ExeML > Label Data page, click the Unlabeled tab. All unlabeled images are displayed. Click an image to go to the labeling page.
 
 Figure 2 Image labeling for object detection
+<p align="center">
+ <img src="Images/yunbao2.JPG">
+</p>
 
 Left-click and drag the mouse to select the area where Yunbao is located. In the dialog box that is displayed, enter the label name, for example, yunbao, and press Enter. After the labeling is complete, the status of the image changes to Labeled in the left Image Catalog pane.
 
@@ -77,11 +81,18 @@ After all images in the image directory are labeled, click ExeML in the upper le
 
 
 Figure 3 Setting training parameters
+<p align="center">
+ <img src="Images/figure3.JPG">
+</p>
+
 
 2. Click Next. On the configuration page that is displayed, confirm the specifications and click Submit to start auto model training. The training takes a certain period of time. If you close or exit the page, the system continues training until it is completed.
 After the training is completed, you can view the training details on the page, such as the accuracy, evaluation result, custom parameters, and class statistics.
 
 Figure 4 Model training
+<p align="center">
+ <img src="Images/figure4.JPG">
+</p>
 
 ## Step 5: Deploy the Model as a Real-Time Service
 

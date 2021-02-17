@@ -43,4 +43,4 @@ End-to-end data development, model development, model training, model deployment
 
 ### Get Started on Flexible Engine ModelArts
 
-You can consult folder QuickStart for starting using ModelArts 
+You can consult folder QuickStart(QuickStart/README.md) for starting using ModelArts 

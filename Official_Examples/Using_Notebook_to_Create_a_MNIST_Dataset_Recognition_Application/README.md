@@ -59,4 +59,68 @@ Obtain the mnist_example.ipynb file and upload it to OBS, for example, test-mode
 On the ModelArts management console, choose DevEnviron > Notebooks and click Create in the upper left corner.
 On the Create Notebook page, set required parameters by referring to Table 2, and click Next.
 Table 2 Parameters in this example
+| Parameter  | Description |
+| ------------- | ------------- |
+| Name  | 	Notebook instance name, which can be customized  |
+| Auto Stop  | To avoid resource waste, enable auto stop and select 1 hour later.  |
+| Work Environment  | Select Multi-Engine 1.0 (Python 3, Recommended).  |
+| Resource Pool  | 	Select Public resource pools.  |
+| Type  | Select GPU.  |
+| Instance Flavor  | Select GPU: 1 x v100NV32 CPU: 8 vCPUs | 64 GiB. If you select Limited-time free, you may have to queue up for resources.  |
+| Storage  | Select OBS and set Storage Path to the OBS path for storing sample files, for example, test-modelarts/mnist-MoXing-code.  |
 
+On the Confirm tab page, check the configurations and click Submit to create a notebook instance.
+On the Notebook management page, when the status of the created notebook changes to Running, the notebook is successfully created. In the Operation column, click Open. The Jupyter page is displayed.
+On the Files tab page of the Jupyter page, you can see the sample code file uploaded in 1. Click the file name. The notebook details page is displayed.
+On the notebook details page, select the kernel environment that matches the code environment as prompted, for example, TensorFlow-1.8, and click Set Kernel. If the following prompt is not displayed, skip the kernel environment configuration, and go to the next step.
+Figure 2 Setting the kernel
+On the notebook details page, the detailed description of the sample code file is provided, including data preparation, training model, and prediction.
+Data preparation: Data has been prepared according to Step 1: Prepare Data. The dataset file is stored in test-modelarts/dataset-mnist/. The sample code provides the description of the dataset.
+Model training
+In the model training area, change data_url to the OBS path where the dataset is located in Step 1: Prepare Data. You can copy the OBS path from OBS Console, and change the OBS path to a path starting with obs://. The following gives an example:
+
+---
+
+data_url = 'obs://test-modelarts/dataset-mnist/'
+
+---
+
+After the code is modified, click Run from the first cell to run all the cells in the model training area. The run log is displayed at the end of the model training area. If information similar to the following is displayed, the model training is successful. The following log information indicates that the model training is successful and the model file is successfully generated:
+
+---
+
+INFO:tensorflow:No assets to write. 
+
+INFO:tensorflow:Restoring parameters from ./cache/log/model.ckpt-1000 
+
+INFO:tensorflow:SavedModel written to: b'./cache/log/model/saved_model.pb' 
+
+An exception has occurred, use %tb to see the full traceback.
+
+---
+
+Prediction
+
+After the model training is complete, upload an image and use the generated model for prediction. As described in Preparations, upload the 7.jpg file to the test-modelarts/train-log path for prediction.
+
+On the notebook, change the value of src_path in the prediction area to the actual OBS path of the image. Use the OBS path starting with obs://.
+
+---
+
+src_path = 'obs://test-modelarts/train-log/7.jpg'
+
+---
+
+After the code is modified, click  Run from the first cell to run all the cells in the prediction area. The run log is displayed at the end of the prediction area. If information similar to the following is displayed, the prediction result is displayed. For example, the predicted handwritten digit in this example is 7. Compare the digits in the image and prediction result to check whether the prediction result is correct.
+
+---
+
+INFO:tensorflow:Running local_init_op. 
+INFO:tensorflow:Done running local_init_op. 
+INFO:tensorflow:Done running local_init_op. 
+The result: [7] 
+INFO:tensorflow:[1 examples] 
+INFO:tensorflow:	[1 examples] 
+An exception has occurred, use %tb to see the full traceback.
+
+---

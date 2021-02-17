@@ -9,7 +9,7 @@ When using the Training Jobs, Model Management, and Notebooks functions of Model
 1. On the ModelArts management console, hover over the username in the upper right corner and choose My Credentials from the drop-down list.
 
 <p align="center">
- <img width="100% src="Images/credentials.JPG">
+ <img src="Images/credentials.JPG">
 </p>
 
 2. On the My Credentials page, choose Access Keys > Create Access Key.

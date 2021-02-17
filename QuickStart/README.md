@@ -13,7 +13,11 @@ When using the Training Jobs, Model Management, and Notebooks functions of Model
 </p>
 
 2. On the My Credentials page, choose Access Keys > Create Access Key.
-![](Images/Picture2.png)
+
+<p align="center">
+ <img src="Images/Picture2.png">
+</p>
+
 3. In the Create Access Key dialog box that is displayed, enter the verification code received by SMS or email.
 4. Click OK and save the access key file as prompted. The access key file is saved in the default download folder of the browser. Open the credentials.csv file to view the access key (Access Key Id and Secret Access Key).
 
@@ -24,4 +28,7 @@ When using the Training Jobs, Model Management, and Notebooks functions of Model
   – AK: Enter the value of the Access Key Id file in the key file
   – SK: Enter the value of the Secret Access Key file in the key file
 3. Click OK. The access key is added.
-![](Images/Picture3.png)
+
+<p align="center">
+ <img src="Images/Picture3.png">
+</p>

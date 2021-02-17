@@ -32,3 +32,9 @@ When using the Training Jobs, Model Management, and Notebooks functions of Model
 <p align="center">
  <img src="Images/Picture3.png">
 </p>
+
+## Creating an OBS Bucket
+
+ModelArts uses FE OBS service to store data and model backups and snapshots, achieving secure, reliable, and low-cost storage. OBS is the Object Storage Service on Orange Flexible Engine Cloud. It is not the same OBS for Orange Business for Service at this context : ) Before using ModelArts, we need to create an OBS bucket and folders for storing data.
+
+You can of course use an existing bucket for storing data. But please make sure it is the 2nd generation Bucket and it is not in the warm or cold mode. If you are not so sure about its parameters, by simply creating a new bucket we can make 100% sure it works

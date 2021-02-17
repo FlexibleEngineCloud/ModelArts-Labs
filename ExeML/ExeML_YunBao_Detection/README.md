@@ -82,7 +82,7 @@ After all images in the image directory are labeled, click ExeML in the upper le
 
 Figure 3 Setting training parameters
 <p align="center">
- <img src="Images/figure3.JPG">
+ <img src="Images/figure3.png">
 </p>
 
 
@@ -91,7 +91,7 @@ After the training is completed, you can view the training details on the page, 
 
 Figure 4 Model training
 <p align="center">
- <img src="Images/figure4.JPG">
+ <img src="Images/figure4.png">
 </p>
 
 ## Step 5: Deploy the Model as a Real-Time Service
@@ -99,17 +99,26 @@ Figure 4 Model training
 l. On the Train Model tab page, wait until the training status changes to Completed. Click Deploy in the Version Manager pane.
 
 Figure 5 Deploying a service
+<p align="center">
+ <img src="Images/figure5.png">
+</p>
+
 
 2. In the displayed Deploy dialog box, set Specifications and Auto Stop, and click OK to deploy the object detection model as a real-time service.
 If you select free specifications, you do not need to set Auto Stop, because the node will be stopped one hour later.
 
 Figure 6 Deployment settings
+<p align="center">
+ <img src="Images/figure6.png">
+</p>
 
 3. After the deployment is started, the system automatically switches to the Deploy Service tab page. This page displays the deployment progress and status.
 The deployment takes a certain period of time. After the deployment is completed, the status in the Version Manager pane changes to Running.
 
 Figure 7 Successful deployment
-Figure 6 Deployment settings
+<p align="center">
+ <img src="Images/figure7.png">
+</p>
 
 ## Step 6: Test the Service
 
@@ -118,6 +127,9 @@ After the model is deployed, you can test the service using an image.
 On the Deployment Online tab page, select a running service version, and click Upload to upload a local image.
 
 Figure 8 Uploading an image
+<p align="center">
+ <img src="Images/figure8.png">
+</p>
 
 Select an image from a local environment. The image must contain Yunbao. Click Predict to perform the test.
 After the prediction is completed, the label name yunbao, location coordinates, and confidence score are displayed in the prediction result pane on the right. In the prediction result, detection_boxes indicates the location of the object, detection_scores indicates the detection score of yunbao.

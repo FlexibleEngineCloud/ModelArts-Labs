@@ -40,3 +40,7 @@ The ModelArts Notebook development environment is ideally suited as a tool for t
 ### Train_inference Cases
 
 End-to-end data development, model development, model training, model deployment and release, model sharing (AI market) and other full-process artificial intelligence model development, and application practices In ModelArts.
+
+### Get Started on Flexible Engine ModelArts
+
+You can consult folder QuickStart for starting using ModelArts 

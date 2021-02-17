@@ -9,5 +9,6 @@ When using the Training Jobs, Model Management, and Notebooks functions of Model
 1. On the ModelArts management console, hover over the username in the upper right corner and choose My Credentials from the drop-down list.
 ![](Images/credentials.JPG)
 3. On the My Credentials page, choose Access Keys > Create Access Key.
-4. In the Create Access Key dialog box that is displayed, enter the verification code received by SMS or email.
-5. Click OK and save the access key file as prompted. The access key file is saved in the default download folder of the browser. Open the credentials.csv file to view the access key (Access Key Id and Secret Access Key).
+![](Images/Picture2.JPG)
+5. In the Create Access Key dialog box that is displayed, enter the verification code received by SMS or email.
+6. Click OK and save the access key file as prompted. The access key file is saved in the default download folder of the browser. Open the credentials.csv file to view the access key (Access Key Id and Secret Access Key).

@@ -20,3 +20,4 @@ When using the Training Jobs, Model Management, and Notebooks functions of Model
   – AK: Enter the value of the Access Key Id file in the key file
   – SK: Enter the value of the Secret Access Key file in the key file
 3. Click OK. The access key is added.
+![](Images/Picture3.png)

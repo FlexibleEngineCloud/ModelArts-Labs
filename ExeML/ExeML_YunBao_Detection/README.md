@@ -44,7 +44,7 @@ The obtained dataset has two directories: eval and train. The data stored in tra
 2. In the Object Detection box, click Create Project. On the Create Object Detection Project page that is displayed, enter a project name and a dataset name, and select an input dataset path. The OBS path of the Yunbao dataset is /test-modelarts/dataset-yunbao/train/. Select an empty directory in Output Dataset Path.
 
 <p align="center">
- <img src="Images/Yunbao1.JPG">
+ <img src="Images/yunbao1.JPG">
 </p>
 
 ---

@@ -21,7 +21,7 @@ When using the Training Jobs, Model Management, and Notebooks functions of Model
 3. In the Create Access Key dialog box that is displayed, enter the verification code received by SMS or email.
 4. Click OK and save the access key file as prompted. The access key file is saved in the default download folder of the browser. Open the credentials.csv file to view the access key (Access Key Id and Secret Access Key).
 
-You may be asked to provide your API password when generating ak/sk. API password is configured when you create your Flexible Engine Tenant. For more details you can refer to [link](/FAQ/How-to-get-api-password.md)
+You may be asked to provide your API password when generating ak/sk. API password is configured when you create your Flexible Engine Tenant. For more details you can refer to [link](FAQ/How-to-get-api-password.md)
 
 ### Adding an Access Key
 

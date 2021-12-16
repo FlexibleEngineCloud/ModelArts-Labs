@@ -4,7 +4,6 @@
 
 ModelArts is an one-stop AI platform based on Flexible Engine. Flexible Engine, the Public Cloud platform of Orange Business Services, allows you to deploy Cloud Resources (e.g. Elastic Cloud Servers) via a simple and ergonomic technical console or APIs.
 
-![alt text](https://cloud.orange-business.com/wp-content/uploads/2020/10/flexible_engine_en.png)
 
 It gives you access to a powerful and scalable Cloud infrastructure for your IS applications or your website. Flexible Engine includes more than 50 IaaS and PaaS features, ranging from security and big data, to containers and virtual desktops and AI services
 
